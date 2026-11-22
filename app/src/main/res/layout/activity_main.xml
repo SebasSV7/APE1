@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a mi primera app"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="APE 1 - Desarrollo basado en plataformas móviles"
+        android:textSize="16sp"
+        android:gravity="center" />
+
+
+    <ImageView
+        android:id="@+id/imgPrincipal"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="Imagen principal de la app"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imagen_principal" />
+
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Ir a la segunda ventana" />
+
+</LinearLayout>
